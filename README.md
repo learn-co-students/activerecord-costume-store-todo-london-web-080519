@@ -27,7 +27,7 @@ The `costumes` table will have four columns:
   
 _as well as_ the two "timestamp" columns:  `created_at` and `updated_at`. This
 will provide a grand total of _six_ columns.
-
+<!-- You can append as many column name/type pairs as you want. By default, the generated migration will include t.timestamps (which creates the updated_at and created_at columns that are automatically populated by Active Record). -->
 The `costume_stores` table will have seven columns:
 
   1. name
